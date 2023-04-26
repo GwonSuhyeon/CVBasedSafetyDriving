@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Create by KSH on 2020. 8. 20.
+  ~ Copyright (c) 2020. KSH. All rights reserved.
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    ​
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/login" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginEnd="105dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="317dp"
+        android:background="#00ff0000"
+        android:ems="15"
+        android:inputType="textEmailAddress"
+        android:text="test@test.com" />
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/login"
+        android:layout_gravity="center"
+        android:layout_marginEnd="106dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="372dp"
+        android:background="#00ff0000"
+        android:ems="15"
+        android:inputType="textPassword"
+        android:text="12345678" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="185dp"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="174dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginStart="107dp"
+        android:background="#00ff0000" />
+
+    <Button
+        android:id="@+id/join"
+        android:layout_width="104dp"
+        android:layout_height="21dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="128dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginStart="220dp"
+        android:background="#00ff0000" />
+    ​
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".MainActivity">
+
+    ​
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/login" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="180dp"
+        android:layout_height="67dp"
+        android:layout_above="@+id/join"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="-64dp"
+        android:layout_toStartOf="@+id/join"
+        android:background="#00ff0000" />
+
+    <Button
+        android:id="@+id/join"
+        android:layout_width="101dp"
+        android:layout_height="18dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="117dp"
+        android:layout_marginEnd="72dp"
+        android:background="#00ff0000" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="298dp"
+        android:background="#00ff0000"
+        android:ems="15"
+        android:gravity="center_vertical"
+        android:inputType="textEmailAddress"
+        android:text="test@test.com" />
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/email"
+        android:layout_below="@+id/email"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="38dp"
+        android:background="#00ff0000"
+        android:ems="15"
+        android:inputType="textPassword"
+        android:text="12345678" />
+    ​
+</RelativeLayout>

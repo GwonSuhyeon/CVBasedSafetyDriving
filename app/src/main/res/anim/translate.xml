@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Create by KSH on 2020. 8. 24.
+  ~ Copyright (c) 2020. KSH. All rights reserved.
+  -->
+
+<translate
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/linear_interpolator"
+    android:duration="2000"
+    android:fromXDelta="0"
+    android:toXDelta="1300">
+</translate>
+
+<!--
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+</set>
+-->
